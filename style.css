@@ -1,0 +1,293 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Merriweather', serif;
+
+    font-weight: 100;
+
+    scroll-behavior: smooth;
+
+}
+
+section {
+
+    width: 100%;
+
+    min-height: 105vh;
+
+    display: flex;
+
+    /* justify-content: center; */
+
+}
+
+h1 {
+
+    font-size: 5rem;
+
+    line-height: 2;
+
+    font-family: 'Merriweather', serif;
+
+    font-weight: bold;
+
+    text-align: center;
+
+}
+
+h2 {
+
+    font-size: 2.2rem;
+
+    text-align: center;
+
+}
+
+p {
+
+    font-size: 1.5rem;
+
+    text-align: center;
+
+}
+
+img {
+
+    width: 500px;       /*was 400px*/
+
+    margin-bottom: 50px;
+
+    border: 12px solid black;
+
+    text-align: center;
+
+    align-items: center;
+
+    float: center;
+
+}
+
+a {
+
+    text-decoration: none;
+
+    color: white;  
+
+}
+
+a:hover {
+
+    color: #b3b3b3; 
+
+}
+
+form {
+
+    line-height: 2;
+    font-size: 1.2rem;
+}
+
+ i { 
+ 
+    font-size: 1.75rem; 
+    margin: 0 10px 10px 10px;  
+} 
+
+/* Navbar */
+
+nav {
+
+    height: 64px;
+
+    width: 100%;
+
+    background-color: black;
+
+    padding: 20px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    position: fixed;
+
+    z-index: 10; /*gives priority to the nav bar... like when scrolling*/ 
+
+}
+
+nav ul {
+
+    display: flex;
+
+    list-style: none;
+
+}
+
+nav ul li {
+
+    margin: 30px;
+
+}
+
+#title {
+
+    font-size: 1.8rem;
+
+    /* font-family: 'Garamond', sans-serif; */
+
+    font-family: 'Merriweather', serif;
+
+    text-transform: capitalize;
+
+}
+
+/* Home Section */
+
+.home {
+
+    padding-bottom: 100px; 
+
+    background-color:#9DABC1;  /*eventually remove this line*/
+
+    /*old green rgb(59, 76, 52);*/
+}
+
+.home div {
+
+    transform: translateY(64px);
+
+    margin: 5%;
+
+}
+
+.background-image{
+
+    border: 0px;
+    width: 100%;      
+    height: 105%;     
+    object-fit: cover;
+    position: absolute;
+}
+
+
+/* About Section */
+
+
+
+.about{
+
+    background-color: #34435A;
+}
+
+.about div {
+
+    margin: 8%;
+
+}
+
+
+.icons {
+
+    height:50px;
+
+    width:50px;
+
+}
+
+.logos{
+
+    height: 150px;
+
+    width: 150px;
+}
+
+/* Activites Section */
+
+.activities {
+
+    display: block;
+    background-color: #9DABC1; 
+    padding: 50px 0 100px 0;
+    
+    
+    /* refers to top right bottom left (clockwise)*/ /*50px 0 100px 0*/
+    text-align: center;
+}
+
+.activities-container {
+
+    display: flex; 
+    margin: 0 8%;         /*top and bottom are 0, left and right are 8% */ 
+    justify-content: space-between;
+}
+
+.activities-container p {
+
+    padding: 0 8%;
+
+
+}
+
+.activities-container img {
+    width: 300px;
+    height: 350px;
+    border-radius: 0;
+   
+
+}
+
+/*Contact Section*/
+
+
+.contact {
+
+    background-color: #34435A;
+}
+.contact div {
+
+    margin: 2.5% /*margin was 5%*/ 
+
+}
+
+.contact-photo img {
+    width: 500px;
+    height: 600px;
+    border-radius: 0;
+
+}
+
+.contact-form input {      /* and for txtarea*/
+    border: 5px solid black;
+    border-radius: 0;
+    padding: 5px; 
+
+}
+
+#contact-msg {
+
+    border: 5px solid black;
+    border-radius: 0;
+    margin-bottom: 50px;
+    /* padding-top: 20px;  */
+
+}
+
+/* Footer */
+
+footer {
+
+
+    height: 125px;
+    width: 100%;
+    background-color: black; 
+    color: white; 
+    padding-top: 25px;
+    text-align: center 
+}
