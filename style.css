@@ -154,9 +154,8 @@ nav ul li {
 
     padding-bottom: 100px; 
 
-    background-color:#9DABC1;  /*eventually remove this line*/
+    background-color: #9DABC1;  /*eventually remove this line*/
 
-    /*old green rgb(59, 76, 52);*/
 }
 
 .home div {
@@ -164,6 +163,16 @@ nav ul li {
     transform: translateY(64px);
 
     margin: 5%;
+
+}
+
+#lofi {
+
+border-radius: 5px;
+height: 300px; 
+width: 450px; 
+margin-left: 11%;
+margin-top: 10%;
 
 }
 
@@ -195,26 +204,27 @@ nav ul li {
 
 .icons {
 
-    height:50px;
+    height:50px; 
 
-    width:50px;
+    width:50px;  
 
 }
 
 .logos{
 
-    height: 150px;
+    height: 150px; /*was 150px*/ 
 
     width: 150px;
 }
 
 /* Activites Section */
 
+
 .activities {
 
     display: block;
     background-color: #9DABC1; 
-    padding: 50px 0 100px 0;
+    padding: 50px 50px 100px 0;
     
     
     /* refers to top right bottom left (clockwise)*/ /*50px 0 100px 0*/
@@ -223,25 +233,28 @@ nav ul li {
 
 .activities-container {
 
-    display: flex; 
-    margin: 0 8%;         /*top and bottom are 0, left and right are 8% */ 
-    justify-content: space-between;
+    display: flex;
+    /*justify-content: space-between; */
+    align-items: center
 }
 
 .activities-container p {
 
-    padding: 0 8%;
+    padding: 0 10%;
 
 
-}
+} 
 
-.activities-container img {
-    width: 300px;
-    height: 350px;
+
+.activities-container img{
+    width: 275px;  
+    /*height: 350px;*/
     border-radius: 0;
-   
+    margin: 25px;     
 
-}
+
+} 
+
 
 /*Contact Section*/
 
@@ -252,18 +265,25 @@ nav ul li {
 }
 .contact div {
 
-    margin: 2.5% /*margin was 5%*/ 
+    margin: 5%; /*margin was 5%*/ 
+}
 
+.contactinfo div {
+
+    margin-top: 30%;
+   
 }
 
 .contact-photo img {
     width: 500px;
     height: 600px;
     border-radius: 0;
+    align-items: center;
 
 }
 
 .contact-form input {      /* and for txtarea*/
+    margin: 2%; 
     border: 5px solid black;
     border-radius: 0;
     padding: 5px; 
@@ -274,8 +294,10 @@ nav ul li {
 
     border: 5px solid black;
     border-radius: 0;
-    margin-bottom: 50px;
-    /* padding-top: 20px;  */
+    margin-bottom: 10px;
+    padding-top: 10px;
+ 
+
 
 }
 
