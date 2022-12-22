@@ -8,7 +8,7 @@
 
 ### about the site: 1. The site is not published due to my name being on it and pictures with my identity. I was given the idea of a personal website, but I if to decide again I would choose another topic for my site. 
 
-## please reach out if you would like a zip of the project to download and view yourself 
+## please reach out if you would like a zip of the project to download and view yourself. I am aware that MacOS has a built in web server. I'm unsure about other OS. Lmk if there are better ways to share without publishing a new site!
 
 
 
